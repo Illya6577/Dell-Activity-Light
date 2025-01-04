@@ -39,7 +39,6 @@ def turn_off(delay=0.0):
 
 def blink(color, count=1, delay=0.2):
     for i in range(count):
-        print(color)  # `print` is a function in Python 3
         turn_on(color, delay)
         turn_off(delay)
     turn_off()
